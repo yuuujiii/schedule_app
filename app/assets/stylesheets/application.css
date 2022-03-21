@@ -13,3 +13,108 @@
  *= require_tree .
  *= require_self
  */
+ 
+ *{
+   margin:0;
+   padding:0;
+ }
+header{
+  background-color:#c52f24;
+  padding:30px 10px;
+  color:white;
+  font-weight:bold;
+  font-size: 30px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+footer{
+  background-color:#c52f24;
+  padding:30px 10px;
+  margin-top: 30px;
+  color:white;
+  font-weight:bold;
+  font-size: 30px;
+  width:100%;
+  box-sizing: border-box;
+}
+
+h2{
+  margin-top: 40px;
+  padding:10px;
+}
+
+table{
+  padding:10px;
+  margin:10px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+div{
+  padding:10px;
+}
+
+th{
+  background-color:#ffdfdf;
+  font-weight:bold;
+  padding:10px 20px;
+  border:1px solid black;
+}
+
+td{
+  background-color:#f1c8c861;
+  padding:10px 20px;
+  border:1px solid black;
+}
+
+input[type="text"]{
+  width:100%;
+  height:30px;
+}
+
+input[type="date"]{
+  width:100%;
+  height:30px;
+}
+
+textarea{
+  width:100%;
+  height:200px;
+}
+
+input[type="submit"]{
+  width:200px;
+  height:30px;
+}
+
+li{
+  list-style: none;
+}
+
+.link_to{
+  text-decoration: none;
+}
+
+.flash{
+  background-color: #98ecaa7a;
+  border:2px solid  #5cd075;
+  width:300px;
+  margin:10px;
+  text-align: center;
+}
+
+.errors_full{
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.error{
+  background-color: #ec98ac8f;
+  border:2px solid  #ec7592;
+  width:400px;
+  padding:10px;
+  margin-left: 10px;
+  text-align: center;
+}
